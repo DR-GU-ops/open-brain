@@ -1,0 +1,309 @@
+{
+  "main": {
+    "id": "100ec3f319eae472",
+    "type": "split",
+    "children": [
+      {
+        "id": "9729660a3798633d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fc93094d1c8e559",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "New Beginning.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "New Beginning"
+            }
+          },
+          {
+            "id": "e26be6a8e7a3c590",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DRGU Standard Gauge Bridge.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DRGU Standard Gauge Bridge"
+            }
+          },
+          {
+            "id": "e8daac64d57c3f23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conjugate Pair Row Key.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Conjugate Pair Row Key"
+            }
+          },
+          {
+            "id": "6486582124aff0fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 3"
+            }
+          },
+          {
+            "id": "cfea84710d3a7726",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 4.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 4"
+            }
+          },
+          {
+            "id": "4e325b836191cff6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conjugate Pair Row Key.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Conjugate Pair Row Key"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d533d474efb37211",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c77d8b618a13543",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8525e2b353ce0c93",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8f715cdf15cc4256",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "settings",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f2439607e2ed4114",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ea4bc2e5cd4adcc3",
+    "type": "split",
+    "children": [
+      {
+        "id": "f72981143567c43f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91adf6df3a61ed8e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Untitled.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Untitled"
+            }
+          },
+          {
+            "id": "046e48231711a6a5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Untitled.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Untitled"
+            }
+          },
+          {
+            "id": "fc8fdfa3c4892f98",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "060dfb7d90513083",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "e80c0c6a4bf8c468",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Untitled"
+            }
+          },
+          {
+            "id": "eaaf3a237e9222d1",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "Claude suggestion.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:Open format converter": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "4e325b836191cff6",
+  "lastOpenFiles": [
+    "DRGU Standard Gauge Bridge.md",
+    "Future Attractor Model.md",
+    "Closure scheme.md",
+    "Claude suggestion.md",
+    "Catagories.md",
+    "Untitled 4.md",
+    "Untitled 3.md",
+    "Conjugate Pair Row Key.md",
+    "New Beginning.md",
+    "2026-05-15.md",
+    "2026-05-09.md",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/{Core,Layers,BST,Audit,Queries,Encoding,Geometry,Computation,Governance,Philosophy}",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/Queries/Temporal Query Audit.md",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/Queries",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/Philosophy/Platonic Form-Participation Projection Law.md",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/Philosophy/Eliot Wisdom-Knowledge-Information.md",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/Philosophy/Aristotle Category Law.md",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/Philosophy",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/Layers/T3 Return Records.md",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/Layers/T1 Domain Declaration.md",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/Layers/S4 Return Compiler.md",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/Layers/S1 Carrier Memory.md",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/Layers/S0 Domain Generator.md",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/Layers",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/Governance/State Transition Encoding Layer.md",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/Governance",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/Geometry/No-Exception Scale-Invariant Embedding Axiom.md",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/Geometry/Chesterhedron.md",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/Geometry/Chesterhedral Scale Invariance Lock.md",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/Geometry/Chesterhedral Embedding Rule Cluster.md",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/Geometry",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/Encoding/Typed Sentinel Substitution Law.md",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/Encoding",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/Core",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/Computation",
+    "DR-GU-Vault-v2/DR-GU-Vault-v2/BST"
+  ]
+}
