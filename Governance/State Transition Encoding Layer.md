@@ -83,18 +83,20 @@ job_status text check (pending | ready_for_review | approved | rejected | applie
 omega_status text default 'proposed'
 ```
 
-## Canonical Transition Rules
+## Canonical Transition Rules (live from Supabase `drgu_state_transition_rules`)
 
-| Transition | Automatic? | Requires Ω? |
-|---|---|---|
-| `raw → extracted` | Yes | No |
-| `extracted → synthesized` | Yes | No |
-| `synthesized → canonical` | No | Yes |
-| `canonical → locked` | No | Yes |
-| `contradicted → preserved-tension` | Yes | No |
-| `pending → bottomed` (missing metadata) | Yes | No |
-| `pending → preserved-tension` (time compression) | Yes | No |
-| `canonical → locked physical observable` | No | Yes (Haag-Gauss gates) |
+The Supabase database contains 30+ state transition rules. Key canonical transitions:
+
+| Transition | Automatic? | Requires Ω? | Locking? |
+|---|---|---|---|
+| `raw → extracted` (metadata gate present) | Yes | No | No |
+| `extracted → synthesized` | Yes | No | No |
+| `synthesized → canonical` | No | Yes | No |
+| `canonical → locked` | No | Yes | Yes |
+| `contradicted → preserved-tension` | Yes | No | No |
+| `pending → bottomed` (missing metadata) | Yes | No | No |
+| `pending → preserved-tension` (time compression) | Yes | No | No |
+| `canonical → locked physical observable` | No | Yes (Haag-Gauss gates) | Yes |
 
 ## Safe Automatic Transitions
 

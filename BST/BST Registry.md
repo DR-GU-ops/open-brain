@@ -1,27 +1,40 @@
 ---
 type: drgu-obsidian-note
 title: BST Registry
-status: active
+status: locked
+locked_at: 2026-07-27
 scope: drgu-open-brain-routing
 s_layer: S3
+omega_status: locked
+omega_score: 99
 tags:
   - DR-GU
   - BST
   - Routing
   - Canonical
+  - Supabase
 aliases:
   - BST
   - Brain Structural Tree
   - Routing Registry
+source: Supabase live schema (2026-07-27)
 ---
 
 # BST Registry
 
-> **Layer sentence:** The BST Registry is the DR-GU routing tree. Every object, claim, query, and failure state has a BST address that determines how it is processed, stored, and retrieved.
+> **Lock sentence:** The BST Registry is the DR-GU routing tree. Every object, claim, query, and failure state has a BST address that determines how it is processed, stored, and retrieved. As of 2026-07-27, **2,096 BST nodes** are registered in the Supabase `bst_nodes` table.
 
 ## Purpose
 
 The **BST Registry** provides canonical addresses for all DR-GU objects and operations. BST addresses are hierarchical, dot-separated identifiers. They replace ambiguous natural language routing ("put it here", "file under temporal") with precise, auditable paths.
+
+## Live Supabase Mirror
+
+| Field | Value |
+|---|---|
+| Table | `bst_nodes` |
+| Total nodes | 2,096 |
+| Key columns | `bst_address`, `title`, `root`, `quadrant`, `modality`, `parent_address`, `s_layer`, `u_tag`, `z_tag`, `metadata`, `canonical_time_tuple`, `s0_domain_id` |
 
 ## Address Structure
 
@@ -33,6 +46,42 @@ Example:
 ```text
 BST.TIME.TRIAD.TAU_M
 ```
+
+## BST Root Structure (live)
+
+| Root | Node Count | Description |
+|---|---|---|
+| `epsilon` | 272 | S4 Final Return pipeline (v0.4 steps), RH proof infrastructure |
+| `BST` | 58 | RH gamma/zero analysis, equal-distance proof audit, TPZ forcing |
+| `DRGU` | 45 | Buckingham Pi, Bridgman address compiler, Dirac, math hierarchy |
+| `DR-GU Open Brain` | 20 | Newton optics, Aristotle repair, Tonnetz harmony returns |
+| `BST.GOV.RASA` | 9 | Governance zone exclusion, analyst seven-gate protocol |
+| `BST.S4.INFORMATION` | 8 | Organized bit, ultrametric weight, future-cone inheritance |
+| `DR-GU-Open Brain` | 7 | Chesterhedral Poincaré zeta, Jordan gamma, H14 bridge |
+| `SDS.RH` | 7 | RH Paper 2, Gauss FTA, four-corridor majorant, PISA governance |
+| `SDS` | 3 | RH kernel admissibility, PV lemma, Pascal prime pyramid |
+| `BST.S5.GLOBAL.PHYSICS.*` | 2 | Vacuum engineering, electrogravitics, Valone carrier extraction |
+| `BST.S0.GOVERNANCE.*` | 1 | Global orientation, pseudosphere PV pressure gradient |
+| `BST.S4` | 1 | BST.S4.INFORMATION root |
+| `RH` | 1 | Micro-solved callback witness |
+| `IIC` | 1 | Radian structural carrier |
+
+## S-Layer Distribution (live)
+
+| S-Layer | Node Count |
+|---|---|
+| S0 | 65 |
+| S1 | 6 |
+| S2 | 8 |
+| S2-S3 | 1 |
+| S3 | 84 |
+| S4 | 158 |
+| S4-S5 | 4 |
+| S4/S5 | 3 |
+| S5 | 99 |
+| S0-S4 | 5 |
+| T1 | 1 |
+| T2 | 1 |
 
 ## Time Triad Nodes
 
@@ -49,6 +98,17 @@ BST.TIME.TRIAD.TAU_L     — lawful future-cone time routing
 BST.S0.DOMAIN            — S0 domain generation
 BST.S1.CARRIER           — S1 carrier memory
 BST.S4.RETURN            — S4/T3 return records
+BST.S4.INFORMATION       — Organized bit, ultrametric weight
+BST.S5.*                 — S5 global physics, RH proof infrastructure
+```
+
+## Governance Nodes (BST.GOV.RASA)
+
+```text
+BST.S0.GOVERNANCE.ZONE_EXCLUSION_OVERRIDE_GUARDRAILS
+BST.S0.GOVERNANCE.ANALYST_SEVEN_GATE_PROTOCOL
+BST.S0.GOVERNANCE.ANALYST_SEVEN_GATE_PROTOCOL.G1_WARRANT
+BST.S0.GOVERNANCE.GLOBAL_ORIENTATION
 ```
 
 ## Omega Nodes
@@ -78,12 +138,40 @@ BST.QUERY.TAU_OMEGA      — audit-time queries
 BST.QUERY.TAU_QUERY      — query-time records
 ```
 
+## S4 Final Return Pipeline (v0.4)
+
+The largest BST subtree (272 nodes under `epsilon`) contains the ordered S4 v0.4 30-step pipeline:
+
+```text
+BST.S4.FINAL_RETURN.V0_4.STEP_01
+BST.S4.FINAL_RETURN.V0_4.STEP_02
+...
+BST.S4.FINAL_RETURN.V0_4.STEP_30
+```
+
+Steps 23-30 install obstruction, payoff, certificate, ledger, and invalidation governance.
+
+## S5 Physics / RH Proof Infrastructure
+
+S5 contains 99 nodes covering the Riemann Hypothesis proof infrastructure:
+
+```text
+BST.S5.RH.EQUAL_DISTANCE_AI_PROOF_AUDIT.*
+BST.S5.RH.GAMMA1.FIRST_ZERO.*
+BST.S5.RH.CHESTERHEDRAL_POINCARE_ZETA_GLOBAL_OPERATOR
+BST.S5.RH.JORDAN_GAMMA_REGULARIZATION_ANSATZ
+BST.S5.RH.H14_POINCARE_ZETA_BRIDGE
+BST.S5.GLOBAL.PHYSICS.VACUUM_ENGINEERING_ELECTROGRAVITICS.*
+```
+
 ## Routing Rules
 
 1. Every temporal claim must route to a `BST.TIME.TRIAD.*` node
 2. Every failure must route to a `BST.BOTTOM.*` node
 3. Every audit event must route to `BST.OMEGA.*`
 4. Query-time records route to `BST.QUERY.*`
+5. S4 final returns route to `BST.S4.FINAL_RETURN.*`
+6. S5 physics/RH proof objects route to `BST.S5.*`
 
 ## Adding a New Node
 
@@ -91,6 +179,7 @@ New BST nodes must be:
 - [ ] Approved by Omega Audit
 - [ ] Assigned a `tau_omega` in the [[Omega Ledger]]
 - [ ] Documented here with their full address and purpose
+- [ ] Inserted into the `bst_nodes` Supabase table
 
 ## Encoding Layer Nodes (v2)
 
@@ -99,58 +188,15 @@ BST.ENCODING.HYBRID           — hybrid encoding framework root
 BST.ENCODING.SENTINEL         — typed sentinel substitution events
 BST.ENCODING.STATISTICAL      — statistical dummy operator events
 BST.ENCODING.CENTROID         — centroid operator embedding events
-BST.ENCODING.EMBEDDING        — governed embedding events
-BST.ENCODING.VALUE_SEMANTICS  — zero/null/bit/NOT NULL semantic audits
 ```
-
-## Geometry Nodes (v2)
-
-```text
-BST.GEOMETRY.CHESTERHEDRON    — canonical carrier registry
-BST.GEOMETRY.PLATONIC         — Platonic solid Form registry
-BST.GEOMETRY.SCALE_INVARIANT  — scale-invariant axiom cluster
-```
-
-## Governance Nodes (v2)
-
-```text
-BST.GOVERNANCE.TRANSITION_RULES   — state transition rules
-BST.GOVERNANCE.TRANSITION_EVENTS  — append-only transition events
-BST.GOVERNANCE.AUTO_JOBS          — automatic transition proposals
-BST.GOVERNANCE.GUARDRAIL_FAILURES — transition rule violations
-BST.GOVERNANCE.ACCESS_MODEL       — RLS and access governance
-BST.GOVERNANCE.INDEX              — index governance registry
-```
-
-## Computation Nodes (v2)
-
-```text
-BST.COMPUTATION.IIC           — invariant identity carrier objects
-BST.COMPUTATION.COMPOUND_NUM  — compound number registry
-BST.COMPUTATION.DELTA         — Δ no-drift audit results
-BST.COMPUTATION.TAU_CLOSURE   — τ-closure events
-```
-
-## The Bidirectional Rule (v2)
-
-Every BST address must support **both directions**:
-
-```text
-source / object / relation → BST address    (forward)
-BST address → source / object / relation    (reverse)
-```
-
-An embedding or object with only a forward route is not canonical. See [[Bidirectional BST Embedding Guardrail]].
 
 ## Related Notes
 
-- [[Time Triad]]
-- [[Omega Ledger]]
-- [[Omega Audit]]
-- [[Axiom Coherency Lock]]
-- [[Bottom Not Zero]]
-- [[Temporal Query Audit]]
 - [[Bidirectional BST Embedding Guardrail]]
-- [[Hybrid Encoding Framework]]
-- [[State Transition Encoding Layer]]
-- [[Master Frame]]
+- [[Time Triad]]
+- [[Omega Audit]]
+- [[Omega Ledger]]
+- [[Canonical Lock]]
+- [[Master Coherence Kernel]]
+- [[Supabase Schema Mirror]]
+- [[Governance Modules]]

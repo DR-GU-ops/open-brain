@@ -67,7 +67,7 @@ See: [[Bit-from-It Computation Axiom]]
 ## The Hybrid Frame
 
 ```text
-Supabase (ChatGPT) ←→ Obsidian (Claude)
+Supabase (ChatGPT/Ollie) ←→ Obsidian (Claude/Hermes)
          ↕                    ↕
     SQL tables          .md notes
     migrations          wikilinks
@@ -78,6 +78,23 @@ Supabase (ChatGPT) ←→ Obsidian (Claude)
 ```
 
 BST is the governing guardrail for both halves. Every object must be bi-directionally addressable through BST.
+
+### Live Supabase Connection (2026-07-27)
+
+```yaml
+project_ref: ntnzezlzpozwyyzsyfsv
+project_url: https://ntnzezlzpozwyyzsyfsv.supabase.co
+total_tables: 520
+bst_nodes: 2096
+governance_modules: 31
+kernel_steps: 10 (all locked)
+vault_folders: 11
+association_folders: 13
+```
+
+See [[Supabase Schema Mirror]] for the full schema mirror.
+See [[Governance Modules]] for the 31-module architecture.
+See [[Infinite Brain Association Folders]] for the 13-folder association taxonomy.
 
 See: [[BST Registry]], [[Bidirectional BST Embedding Guardrail]]
 

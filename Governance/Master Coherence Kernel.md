@@ -24,22 +24,28 @@ aliases:
 
 > **Lock sentence:** DR-GU governance must evaluate objects through a single coherence kernel with ten ordered steps. Scalars, embeddings, bits, NULLs, projections, dummy values, BST tags, and Omega-admitted witnesses may not be collapsed into one another without an explicit typed transition, contract pass, time-basis record, BST route, contradiction path, and Omega decision.
 
-## The Ten Kernel Steps
+## The Ten Kernel Steps (live from Supabase `drgu_master_coherence_kernel_steps`)
 
-Every governed DR-GU object must pass through these steps **in order**:
+Every governed DR-GU object must pass through these steps **in order**. All 10 steps are `omega_status: locked` in Supabase.
 
-| Step | Key | Domain | Canonical Test | Failure Route |
-|---|---|---|---|---|
-| 1 | `kernel_01_source_object_declared` | Source object | Schema/table/id or stable object key plus object kind must be declared | `pending-omega-review` |
-| 2 | `kernel_02_value_semantics_preserved` | Value semantics | Zero, NULL, NOT NULL, empty, boolean, bit must remain separate governed states | `preserved-tension` |
-| 3 | `kernel_03_typed_sentinel_or_observed_status` | Typed sentinel | Bad/missing/invalid values must be typed sentinels; observed values must remain marked observed | `preserved-tension` |
-| 4 | `kernel_04_statistical_operator_or_centroid` | Statistical operator | Imputed values must declare arithmetic/geometric/harmonic/normal operator, centroid, residual, confidence | `preserved-tension` |
-| 5 | `kernel_05_embedding_preservation` | Embedding | Embedding may retrieve candidates but must preserve observed/imputed status, source path, raw values, Omega status | `preserved-tension` |
-| 6 | `kernel_06_bst_bidirectional_guardrail` | BST guardrail | Must route forward source→BST and backward BST→reconstructable source | `bottomed` |
-| 7 | `kernel_07_time_triad_basis` | Time triad | Must declare governing time basis; transitions are append-only witnesses | `preserved-tension` |
-| 8 | `kernel_08_scale_invariance` | Scale invariance | Universal physical claims must pass no-exception scale check or be scoped/bottomed | `bottomed` |
-| 9 | `kernel_09_contradiction_path` | Contradiction | Contradictions must not be erased; unresolved contradiction → preserved-tension or bottom | `preserved-tension` |
-| 10 | `kernel_10_omega_admissibility` | Omega | Only Omega can admit, lock, scope, preserve-tension, or bottom the object | `pending-omega-review` |
+| Step | Key | Domain | Canonical Test | Required Fields | Failure Route | Contract |
+|---|---|---|---|---|---|---|
+| 10 | `kernel_01_source_object_declared` | source_object | The governed object must declare schema/table/id or stable object key plus object kind | `object_kind`, `source_path` | `pending-omega-review` | `SOURCE_OBJECT_CONTRACT` |
+| 20 | `kernel_02_value_semantics_preserved` | value_semantics | Zero, NULL, NOT NULL, empty, boolean, and bit semantics must remain separate governed states | `value_semantic_state`, `relation_context` | `preserved-tension` | `ZERO_NOT_NULL_BIT_CONTRACT` |
+| 30 | `kernel_03_typed_sentinel_or_observed_status` | typed_sentinel | Bad/missing/invalid/unknown/suppressed values must be typed sentinels; observed values must remain marked observed | `is_observed`, `is_imputed`, `sentinel_code` | `preserved-tension` | `TYPED_SENTINEL_CONTRACT` |
+| 40 | `kernel_04_statistical_operator_or_centroid` | statistical_operator | Imputed statistical values must declare arithmetic/geometric/harmonic/normal operator, distribution context, centroid value, residual, and confidence | `operator_key`, `distribution_context`, `confidence`, `centroid_value`, `residual` | `preserved-tension` | `STATISTICAL_DUMMY_CONTRACT`, `CENTROID_RETURN_CONTRACT` |
+| 50 | `kernel_05_embedding_preservation` | embedding | Embedding may retrieve candidates but must preserve observed/imputed status, source path, raw/cleaned values, and Omega status | `embedding_rule_key`, `embedding_mode`, `source_path`, `omega_status` | `preserved-tension` | `EMBEDDING_ADMISSIBILITY_CONTRACT` |
+| 60 | `kernel_06_bst_bidirectional_guardrail` | bst_guardrail | Embedding must route forward from source/object/relation to BST and backward from BST to reconstructable source/object/relation candidates | `bst_path`, `bst_forward_route`, `bst_reverse_route`, `bst_guardrail_status` | `bottomed` | `BST_BIDIRECTIONAL_CONTRACT` |
+| 70 | `kernel_07_time_triad_basis` | time_triad | The event must declare the governing time basis and preserve transition/return memory rather than silently overwriting state | `time_basis` | `preserved-tension` | `TIME_TRIAD_CONTRACT` |
+| 80 | `kernel_08_scale_invariance` | scale_invariance | Universal physical-theory claims must pass unit invariance, dimensional consistency, and no-exception scale checks or be scoped/bottomed | `scale_domain`, `unit_invariance_status`, `dimensional_consistency_status`, `no_exception_check_status` | `bottomed` | `SCALE_INVARIANT_PHYSICAL_THEORY_CONTRACT` |
+| 90 | `kernel_09_contradiction_path` | contradiction | Contradictions must not be erased; unresolved contradiction routes to preserved-tension or bottom according to Omega | `contradiction_path` | `preserved-tension` | `CONTRADICTION_PATH_CONTRACT` |
+| 100 | `kernel_10_omega_admissibility` | omega_admissibility | Only Omega can admit, lock, scope, preserve-tension, or bottom the governed object | `omega_status` | `pending-omega-review` | `OMEGA_ADMISSIBILITY_CONTRACT` |
+
+### Critical Notes
+
+- Steps 6 (BST guardrail) and 8 (scale invariance) are **hard gates** — failure routes to `bottomed`, not `preserved-tension`.
+- Steps 1 and 10 route to `pending-omega-review` — Omega must explicitly decide.
+- Every step has a named contract in `drgu_admissibility_contracts` that implements its canonical test as executable code.
 
 ## The Eleven Admissibility Contracts
 

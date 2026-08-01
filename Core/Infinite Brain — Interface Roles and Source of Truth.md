@@ -87,6 +87,26 @@ It stores:
 
 Supabase is S1 carrier memory — the Open Brain.
 
+## Vault Folder Taxonomy (live from Supabase, 2026-07-27)
+
+The Obsidian vault is governed by an 11-folder taxonomy stored in `drgu_vault_folders`:
+
+| Folder | S-Layer | Purpose |
+|---|---|---|
+| `00-Inbox` | S0 | Raw NotebookLM extractions, unreviewed AI outputs, unprocessed dumps. Nothing canonical. |
+| `01-Core` | S0 | Foundational DR-GU architecture notes, operating locks, interface-role docs. Authored only. |
+| `02-Domains` | S0 | S0 domain registry entries as wiki pages. Admissibility scores, domain descriptions. |
+| `03-Claims` | S2 | Individual claim notes — axioms, lemmas, corollaries, equations. |
+| `04-Sources` | S1 | Source documents, uploaded files, external references. |
+| `05-Maps` | S2 | Concept maps, S-layer loop diagrams, BST topology maps, RPT coherence maps. |
+| `06-Theorems` | S2 | Full theory module pages — DRGU-CORE-001, S2-PHYS-BH-PLANCKSTAR-001, etc. |
+| `07-Audits` | S3 | Ω-Audit outputs, contradiction reports, admissibility rulings, bst_updates records. |
+| `08-Generated` | S2 | AI-created notes not yet reviewed. Claude output, ChatGPT schema output, NotebookLM. |
+| `09-Database-Mirrors` | S4 | Supabase-generated snapshots: RPT element pages, theory_entry pages, S0 domain pages. |
+| `99-Archive` | — | Deprecated, superseded, or retired notes. `omega_status = deprecated`. Preserved for audit. |
+
+See [[Infinite Brain Association Folders]] for the 13-folder association taxonomy that governs bidirectional note links.
+
 ## The Layer Chain
 
 ```text
