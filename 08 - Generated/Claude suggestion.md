@@ -51,3 +51,8 @@ The document itself flags this and it's worth isolating: the memory stack in the
 > **S0 →(T1)→ S1 → S2 →(T2)→ S3 → S4 →(T3)→ S0**
 
 Without S0, S1 has no admissible domain to exist inside. Without T3→S0, the loop is a pipeline, not a reconstruction engine. The three improvements above all depend on getting this correction locked first.
+
+## Related Notes
+
+- [[Schema]]
+

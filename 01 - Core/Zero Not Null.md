@@ -132,6 +132,9 @@ null_semantics_status: [typed or untyped]
 
 ## Related Notes
 
+- [[Schema]]
+- [[Supabase Schema Mirror]]
+
 - [[Bit-from-It Computation Axiom]]
 - [[Delta Operator]]
 - [[Typed Sentinel Substitution Law]]

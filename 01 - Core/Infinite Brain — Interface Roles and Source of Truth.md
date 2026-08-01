@@ -162,6 +162,8 @@ When using any tool in this consortium:
 
 ## Related Notes
 
+- [[NotebookLM Custom Summary]]
+
 - [[Master Frame]]
 - [[Time Triad]]
 - [[BST Registry]]

@@ -75,6 +75,8 @@ BST.OMEGA.CANONICAL
 
 ## Related Notes
 
+- [[Schema]]
+
 - [[Omega Ledger]]
 - [[Omega Audit]]
 - [[Time Triad]]

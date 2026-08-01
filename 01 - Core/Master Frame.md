@@ -120,6 +120,10 @@ See: [[BST Registry]], [[Bidirectional BST Embedding Guardrail]]
 
 ## Related Notes
 
+- [[Centroid Operator Embedding Preservation Law]]
+- [[No-Exception Scale-Invariant Embedding Axiom]]
+- [[Statistical Dummy Mean Operator Law]]
+
 - [[Time Triad]]
 - [[Bit-from-It Computation Axiom]]
 - [[Compound Number]]

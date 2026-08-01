@@ -43,6 +43,8 @@ NotebookLM outputs are not canonical by default. Canonical project knowledge mus
 
 ## Related Notes
 
+- [[Infinite Brain Association Folders]]
+
 - [[Infinite Brain — Interface Roles and Source of Truth]]
 - [[Master Frame]]
 - [[Time Triad]]

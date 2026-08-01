@@ -63,6 +63,9 @@ BST.BOTTOM.COLLAPSE_DETECTED
 
 ## Related Notes
 
+- [[Schema]]
+- [[Supabase Schema Mirror]]
+
 - [[S1 Carrier Memory]]
 - [[Time Triad]]
 - [[Omega Audit]]

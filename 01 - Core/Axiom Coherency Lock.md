@@ -67,6 +67,8 @@ Or enters `preserved-tension` status in the [[Omega Ledger]] if the ambiguity is
 
 ## Related Notes
 
+- [[Supabase Schema Mirror]]
+
 - [[Time Triad]]
 - [[Omega Ledger]]
 - [[Omega Audit]]

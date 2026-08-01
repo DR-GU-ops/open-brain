@@ -192,6 +192,8 @@ BST.ENCODING.CENTROID         — centroid operator embedding events
 
 ## Related Notes
 
+- [[Schema]]
+
 - [[Bidirectional BST Embedding Guardrail]]
 - [[Time Triad]]
 - [[Omega Audit]]

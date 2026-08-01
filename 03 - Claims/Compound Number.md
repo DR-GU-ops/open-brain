@@ -137,6 +137,9 @@ source_path:
 
 ## Related Notes
 
+- [[Schema]]
+- [[Supabase Schema Mirror]]
+
 - [[IIC - Invariant Identity Carrier]]
 - [[Bit-from-It Computation Axiom]]
 - [[Delta Operator]]

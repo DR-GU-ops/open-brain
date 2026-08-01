@@ -81,6 +81,9 @@ BST.BOTTOM.METADATA_MISSING
 
 ## Related Notes
 
+- [[Schema]]
+- [[Supabase Schema Mirror]]
+
 - [[Source-Locked Witness]]
 - [[T1 Domain Declaration]]
 - [[Time Triad]]

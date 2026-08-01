@@ -62,6 +62,8 @@ When an object reaches bottom:
 
 ## Related Notes
 
+- [[Supabase Schema Mirror]]
+
 - [[Omega Ledger]]
 - [[Omega Audit]]
 - [[Axiom Coherency Lock]]

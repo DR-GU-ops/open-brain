@@ -120,6 +120,9 @@ See [[State Transition Encoding Layer]].
 
 ## Related Notes
 
+- [[Schema]]
+- [[Supabase Schema Mirror]]
+
 - [[Zero Not Null]]
 - [[Bottom Not Zero]]
 - [[Statistical Dummy Mean Operator Law]]

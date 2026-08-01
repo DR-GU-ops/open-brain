@@ -150,3 +150,8 @@ Or even tighter:
 Memory≠archive\text{Memory} \neq \text{archive}Memory=archive Memory=return-capable witness\text{Memory} = \text{return-capable witness}Memory=return-capable witness
 
 This is the right architecture. It preserves path-memory, prevents wiki surfaces from becoming false canon, and makes the corpus reconstructive rather than merely searchable.
+
+## Related Notes
+
+- [[IIC - Invariant Identity Carrier]]
+

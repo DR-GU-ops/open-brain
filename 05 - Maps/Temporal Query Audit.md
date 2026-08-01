@@ -80,6 +80,9 @@ BST.QUERY.TAU_QUERY
 
 ## Related Notes
 
+- [[Schema]]
+- [[Supabase Schema Mirror]]
+
 - [[Time Triad]]
 - [[S4 Return Compiler]]
 - [[BST Registry]]

@@ -139,6 +139,9 @@ A bad value may be replaced by a statistical dummy only when:
 
 ## Related Notes
 
+- [[Schema]]
+- [[Supabase Schema Mirror]]
+
 - [[Typed Sentinel Substitution Law]]
 - [[Centroid Operator Embedding Preservation Law]]
 - [[Hybrid Encoding Framework]]

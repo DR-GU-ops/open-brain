@@ -320,3 +320,8 @@ outcomes:
 - certificate_pending  
 - payoff_ready  
 ```
+
+## Related Notes
+
+- [[IIC - Invariant Identity Carrier]]
+

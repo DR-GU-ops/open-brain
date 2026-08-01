@@ -88,3 +88,8 @@ It earns the score because it removes the last major category error in the Open-
 ## Lock sentence
 
 **Locked:** DR-GU corpus indexing must now be triadic-time aware. Every object must be indexed by S-regime, U-depth, Z-status, Ω-state, phase signature, remembered path, and return route. S0 generates the admissible domain, S1 preserves carrier memory, S2 generates readable synthesis, S3 governs admissibility, and S4 routes the next lawful query back through the best source-linked informational nest rather than through a merely similar fragment.
+
+## Related Notes
+
+- [[IIC - Invariant Identity Carrier]]
+
