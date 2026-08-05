@@ -16,7 +16,7 @@ aliases:
   - Supabase Mirror
   - Schema Mirror
   - S1 Schema
-source: Supabase live schema (2026-07-27)
+source: Supabase live schema (2026-08-05)
 ---
 
 # Supabase Schema Mirror
@@ -33,11 +33,13 @@ postgres_version: 14.5
 schema: public
 ```
 
-## Overview (2026-07-27)
+## Overview (2026-08-05)
 
 | Metric | Count |
 |---|---|
 | Total tables + views + RPC functions | 520 |
+| Tables/views | 422 |
+| RPC functions | 98 |
 | BST nodes registered | 2,096 |
 | Governance modules | 31 (all locked) |
 | Master Coherence Kernel steps | 10 (all locked) |
@@ -45,6 +47,7 @@ schema: public
 | State transition rules | 30+ |
 | Vault folders | 11 |
 | Infinite Brain association folders | 13 |
+| Whittaker-Dirac equations | 14 (7 regression cases passed) |
 
 ## Core S-Layer Tables
 
@@ -241,6 +244,23 @@ rpc/match_thoughts              — Vector search over thoughts
 rpc/upsert_thought              — Upsert thought
 ```
 
+## Whittaker-Dirac Phi-Pair Package (installed 2026-08-04)
+
+```text
+Axiom cluster: DRGU.COMPILER.WHITTAKER_DIRAC.PHI_PAIR.ORDERED_UNCOMPRESSION.V1
+Mirror cluster: DRGU.PHYS.EM.WHITTAKER.PSI.PARALLAX_IDENTITY_CORRIDOR.V1
+Operator: OP_WHITTAKER_DIRAC_PHI_PAIR_ORDERED_AUDIT_V1
+SQL function: drgu_compute.whittaker_dirac_phi_pair_ordered_audit(jsonb, double precision)
+Omega audit: OMEGA.AUDIT.WHITTAKER_DIRAC.PHI_PAIR.ORDERED_COMPILER.2026_08_04.V1
+BST address: BST.DRGU.HYPERSPHERICAL_SUBSTRATE.MAXWELL_EM.WHITTAKER_PSI_PARALLAX_IDENTITY_CORRIDOR_V1
+Equations: 14 (WDP.E01-E14)
+Regression cases: 7 (all passed)
+Computational ceiling: Z4/U4 (next gate: Z5/U5)
+Security: SECURITY INVOKER, service_role only, not exposed via REST
+```
+
+See [[Whittaker-Dirac Ordered Phi-Pair Package]] for full details.
+
 ## Related Notes
 
 - [[BST Registry]]
@@ -250,3 +270,4 @@ rpc/upsert_thought              — Upsert thought
 - [[Infinite Brain — Interface Roles and Source of Truth]]
 - [[State Transition Encoding Layer]]
 - [[Master Frame]]
+- [[Whittaker-Dirac Ordered Phi-Pair Package]]
