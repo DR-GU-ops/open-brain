@@ -140,9 +140,29 @@ M_Omega (carrier unity, S0-S1)
 
 The Higgs field operates at the W_d (witness) and Phi_d^phys (physical audit) stages -- downstream of carrier unity, downstream of projection differentiation. It is important, but its importance is architectural: it exposes a clean local image of the unification grammar DR-GU already placed at the carrier level.
 
-## Database Gap
+## Database Locations (updated 2026-08-05)
 
-No dedicated Higgs-specific cluster exists. The three roles are distributed across vacuum physics (S3), Whittaker-Dirac compiler (S3-S4), and YM mass gap (S4-S5). A future cluster could be registered as:
+A dedicated Higgs cluster was found during the S0-S4 Projection Strata audit:
+
+**BST.S4.PARTICLES.HIGGS.DR_GU_SEPARATION.V1** (proposed)
+
+Lock sentence: "field=GU carrier; DR=mode extraction; mechanism=bridge; boson=scalar output"
+
+| Sub-node | Title | Cluster Key | Status |
+|---|---|---|---|
+| GU_FIELD_CARRIER | Higgs GU Gauge-Covariant Field Carrier | DRGU.PARTICLE.HIGGS.GU_GAUGE_COVARIANT_FIELD_CARRIER.V1 | bridge open |
+| DR_MODE_EXTRACTION | Higgs DR Physical-Mode Extraction | DRGU.PARTICLE.HIGGS.DR_PHYSICAL_MODE_EXTRACTION.V1 | derived |
+| MECHANISM_INTERTWINER | Higgs Mechanism DR-GU Localization Intertwiner | DRGU.PARTICLE.HIGGS.MECHANISM.DR_GU_LOCALIZATION_INTERTWINER.V1 | bridge open |
+| BOSON_SCALAR_EXCITATION | Higgs Boson Observable Scalar Excitation | DRGU.PARTICLE.HIGGS.BOSON.OBSERVABLE_SCALAR_EXCITATION.V1 | derived |
+
+Degree-of-freedom non-erasure ledger:
+```text
+4_real(H) = 3_longitudinal(W+, W-, Z) + 1_scalar(h)
+```
+
+This directly validates the three-role analysis: the Higgs field is the GU carrier, the mechanism is the bridge, and the boson is the scalar output -- all downstream witnesses of carrier identity, not sources of mass.
+
+Plus the original distributed locations across vacuum physics (S3), Whittaker-Dirac compiler (S3-S4), and YM mass gap (S4-S5). The dedicated cluster above formalizes what was already distributed.
 
 ```text
 DRGU.PHYS.HIGGS.CARRIER_WITNESS.MASS_GENERATION.V1
