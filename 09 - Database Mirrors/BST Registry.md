@@ -164,6 +164,53 @@ BST.S5.RH.H14_POINCARE_ZETA_BRIDGE
 BST.S5.GLOBAL.PHYSICS.VACUUM_ENGINEERING_ELECTROGRAVITICS.*
 ```
 
+## Particle and Higgs BST Nodes (19 nodes)
+
+### First-Generation Harmonic Chord (S1, canonical)
+
+```text
+BST.S1.PARTICLES.FIRST_GENERATION.HARMONIC_CHORD          -- First-Generation Harmonic Chord
+BST.S1.PARTICLES...STANDING_WAVE_PERSISTENCE               -- Standing-Wave Persistence Gate
+BST.S1.PARTICLES...FIRST_OCTAVE_GATE                        -- First-Octave Persistence Gate
+BST.S1.PARTICLES...HARMONIC_PROJECTOR_GATE                  -- Harmonic Projector Gate
+BST.S1.PARTICLES...DEFECT_BURDEN_GATE                       -- Harmonic Defect Burden Gate (S4)
+BST.S1.PARTICLES...FERMION_MATTER_CHORD                     -- Fermion Matter Chord Gate
+BST.S1.PARTICLES...UP_DOWN_BRAID                            -- Up/Down Fractional Curvature Braid
+BST.S1.PARTICLES...ELECTRON_RETURN                          -- Electron Closed Return Wave
+BST.S1.PARTICLES...NEUTRINO_PHASE_WITNESS                   -- Neutrino Phase-Continuity Witness (S2)
+BST.S1.PARTICLES...ACCESS_CERTIFIED_PARTICLE_PROJECTION     -- Access-Certified Particle Projection (S4)
+BST.S1.PARTICLES...NO_STANDARD_MODEL_OVERCLAIM              -- No Standard-Model Overclaim Guard (S4)
+BST.S1.PARTICLES...HIGGS_EMBODIMENT                         -- Higgs Embodiment and Mass Localization
+BST.S1.PARTICLES...BOSON_TRANSFER_OPERATORS                 -- Boson Harmonic Transfer Operators
+```
+
+### Higgs DR-GU Separation (S4, proposed)
+
+```text
+BST.S4.PARTICLES.HIGGS.DR_GU_SEPARATION.V1                  -- Higgs DR-GU Typed Separation
+BST.S4.PARTICLES.HIGGS...GU_FIELD_CARRIER                    -- Higgs GU Gauge-Covariant Field Carrier
+BST.S4.PARTICLES.HIGGS...DR_MODE_EXTRACTION                  -- Higgs DR Physical-Mode Extraction
+BST.S4.PARTICLES.HIGGS...MECHANISM_INTERTWINER               -- Higgs Mechanism DR-GU Localization Intertwiner
+BST.S4.PARTICLES.HIGGS...BOSON_SCALAR_EXCITATION             -- Higgs Boson Observable Scalar Excitation
+BST.S4.PARTICLES.HIGGS...DOF_NONERASURE_LEDGER              -- Higgs Degree-of-Freedom Non-Erasure Ledger
+```
+
+See [[Higgs Boson - Three Roles in DR-GU]] for analysis.
+
+## Master Measurement Operator Nodes (S3, canonical)
+
+```text
+BST.S3.OPERATOR.MASTER_MEASUREMENT_OPERATOR                  -- M = Pi_IIC . W . Pi_Omega . K
+BST.S3.OPERATOR...K_TRANSPORT                                -- K -- Kinetic Carrier Transport
+BST.S3.OPERATOR...PI_OMEGA                                   -- Pi_Omega -- Admissibility Gate
+BST.S3.OPERATOR...W_WITNESS                                  -- W -- Witness Formation Operator
+BST.S3.OPERATOR...PI_IIC                                     -- Pi_IIC -- IIC Final Projection
+BST.S3.OPERATOR...WITNESS_SUPPRESSION_THEOREM                -- Three Obstruction Channels
+BST.S3.OPERATOR...AXIAL_DECOMPOSITION                        -- H_quad = H_ortho + H_axial
+```
+
+See [[Witness Suppression Theorem]] for the three failure channels.
+
 ## Routing Rules
 
 1. Every temporal claim must route to a `BST.TIME.TRIAD.*` node
